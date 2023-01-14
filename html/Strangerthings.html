@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/64cc13dfa7.js" crossorigin="anonymous"></script>
+        <title>Stranger Things</title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+<script src="../java/main.js">
+</script>
+    </head>
+    <style>
+        *{
+    margin: 0;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    color: red;
+}
+
+        p{
+    margin: 15px;
+        }
+
+        ::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(20, 20, 20);
+  border-left: solid rgb(39, 39, 39) 1px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(158, 0, 0);
+}
+    </style>
+    <body class="kgstrangerthingswholepagebody">
+        <div class="whole-page">
+            <div class="top-page">
+                <div class="nav-bar">
+                    <section class="main">
+                        <div class="navbar-contmain">
+                            <div class="navbar">
+                                <div class="navbar-container">
+                                    <div class="logo-container">
+                                        <h1 id="fklogo">RawScene</h1>
+                                    </div>
+                                    <div class="menu-container">
+                                        <ul class="menu-list">
+                                            <li class="menu-list-item">Home</li>
+                                            <li class="menu-list-item active">Series</li>
+                                            <li class="menu-list-item">Movies</li>
+                                            <li class="menu-list-item">About</li>
+                                        </ul>
+                                    </div>
+                                    <a href="signinup.html">
+                                    <div class="signin-container" style="left:-170px; width:70px">Sign In</div></a>
+                                    <label class="switch" style="left:-170px; width:90px">
+                                      <input type="checkbox" onclick="DarkTheme()" >
+                                <span class="slider"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-moon"></i></span>
+                            </label>
+                            <input type="search" class="t" value="" id="search" onchange="openpage()"  name="search" placeholder="write & chose" autofocus list="fruitlist" style=" margin-left: -130px; color: black; width: 250px; height: 20px;font-size: 15px;">
+                            <datalist id="fruitlist">
+                                    <option>sherlock</option>
+                                    <option>house</option>
+                                    <option>spiderman</option>
+                                    <option>تراب الماس</option>
+                                    <option>the vampire diaries</option>
+                                    <option>little women</option>
+                                    <option>stranger things</option>
+                                    <option>friends</option>
+                                    <option>the good doctor</option>
+                                    <option>la casa de papel</option>
+                                    <option>you</option>
+                                    <option>ملاكي اسكندرية</option>
+                                    <option>harry potter</option>
+                                    <option>anne with an e</option>
+                                    <option>sense and sensibility</option>
+                                </datalist>
+                                <input class="s"   type="submit" name="submit" value="Search" style="color: black; width: 70px;font-size: 10px; height: 23px;">    
+                            </div>
+                        </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        </div>
+                </header>
+                </div>
+                <div class="KGstrangerthingslogo">
+                   <img class="KGstrangerthingslogo-" src="../media/strangerthings.png">
+                </div>
+                <div class="KGmiddle-page">
+                    <div class="KGtitleandtrailercont">
+                    <div class="KGstp">
+                        <p style="font-size: 38px;" class="KGstrword">
+                            <strong class="KGst-title">
+                            Stranger Things
+                        </strong>
+                        </p>
+                        <p class="KGstrangerthingsab">
+                            In a small town where everyone knows everyone,
+                            <br> a peculiar incident starts a chain of events that leads to the disappearance of a child, 
+                            <br> which begins to tear at the fabric of an otherwise peaceful community. 
+                            <br>Dark government agencies and seemingly malevolent supernatural forces converge on the town, 
+                            <br> while a few of the locals begin to understand that there's more going on than meets the eye.
+                        </p>
+            
+                        <p>
+                            <a href="#charachters" color="red">
+                           - Want To Know More About The Characters? >
+                        </a>
+                        </p>
+                    </div>
+                    <div class="KGtrailer">
+                        <video width="620" height="340" autoplay muted control>
+                            <source src="../media/strangerthingstrailer.mp4" class="KGvid-trailer" type="video/mp4">
+                            </video>
+                    </div>
+                    <div class="KGallatmall">
+                        <img src="../media/wall.gif" alt="All At Mall" class="KGallatmall-img">
+                        <img src="../media/allatmall.jpg" alt="All At Mall" class="KGallatmall-img1">
+                    </div>
+                    </div>
+                    <div class="KGcast">
+                        <strong class="KGcast-title" id="charachters">Charachters</strong>
+                        <div class="KGcharachterscont">
+                            
+                            <div class="KGcharachter">
+                                <img src="../media/nancy.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Nancy Wheeler</p>
+                                </div>
+                                <!--Card-->
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/steve.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Steve Harrington</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/eleven.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Eleven</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/max-n.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Max Mayfield</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/mike-n.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Mike Wheeler</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/Which _Stranger Things_ Character Are You Based On Your Starbucks Order_.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Dustin Henderson</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/joyce-n.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Joyce Byers</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media//jonathan-n.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Jonathan</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media//Billy Hargrove (Stranger Things, 2019).jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Billy Hargrove</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/lucas.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Lucas Sinclair</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/jim.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Jim Hopper</p>
+                                </div>
+                            </div>
+                            <div class="KGcharachter">
+                                <img src="../media/will.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Will Byers</p>
+                                </div>
+                            </div>
+
+                            <div class="KGcharachter">
+                                <img src="../media/wallpapers stranger things _ Tumblr.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Robin Buckley</p>
+                                </div>
+                            </div>
+
+                            <div class="KGcharachter">
+                                <img src="../media/demogorgon.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>The Demogorgon</p>
+                                </div>
+                            </div>
+
+                            <div class="KGcharachter">
+                                <img src="../media/Stranger Things_ Alexei's Unadulterated Joy Is Season 3's Best Part.jpg" class="KGcast-img">
+                                <div class="KGcharachter-info">
+                                    <p>Alexei</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                    <div class="KGseasons">
+                        <div class="KGseasons-title">
+                            <strong>Seasons</strong>
+
+                        </div>
+                        <div class="KGseasonscont">
+                            
+                            <div class="KGseason">
+                                <a href="https://www.netflix.com/eg-en/title/80057281">
+                                <img class="KGseason-img" src="../media/season1.jpg" alt="season 1"></a>
+                            </div>
+                            <div class="KGseason">
+                                <a href="https://www.netflix.com/eg-en/title/80057281">
+                                <img class="KGseason-img" src="../media/season2.jpg" alt="Season 2"></a>
+                            </div>
+                            <div class="KGseason">
+                                <a href="https://www.netflix.com/eg-en/title/80057281">
+                                <img class="KGseason-img" src="../media/season3.png" alt="Season 3"></a>
+                            </div>
+                            <div class="KGseason">
+                                <a href="https://www.netflix.com/eg-en/title/80057281">
+                                <img class="KGseason-img"src="../media/Stranger_Things_season_4.jpg" alt="Season 4"></a>
+                            </div>
+                            <strong class="KGseasons-desc"> Click On 
+                                <br>The Season
+                                <br> U Want 
+                                <br>To Watch</strong>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="KGbottom-page">
+
+                </div>
+            </div>
+        </div>
+        <footer class="fefooter">
+            <div class="f1">
+                <h1 class=" fologo fecontainer fefont1">RawScene</h1>
+                <h4>contact</h4>
+                <p>
+                    <h5>Email:</h5>fcaiStudents@fci.helwan.edu.eg</p>
+                <h4>Follow Us</h4>
+                <p class="footicon"><i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-pinterest-p"></i> <i class="fa-brands fa-youtube"></i> </p>
+            </div>
+            <div class="f2">
+                <h4>About</h4>
+                <p>About Us</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="f3">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i> App Store </button>
+                <button type="button" class="btn btn-dark"><i class="fa-brands fa-google-play"></i> Google Play </button>
+                <p class="copy">&copy;FCAI-HStudents_IT_Project</p>
+                <form class="feed"> 
+                    <label for="feed"><h2 class="review">Reviews:</h2></label><br>
+                    <textarea name="inreview" cols="30" rows="4" placeholder="Please Enter Your Feedback:" ></textarea></br>
+                    <input type="submit" value="submit" class="btn btn-dark fosub">
+                </form>
+            </div>
+        </footer>
+        <script>
+            function DarkTheme(){
+                var element = document.body;
+                element.classList.toggle("strangerthings-dark-mode");
+            }
+        </script>
+    </body>
+    
+</html>
